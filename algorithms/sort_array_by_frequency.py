@@ -1,6 +1,11 @@
 import unittest
 
 
+# Sort array by frequency
+# - First sort list ascending and then create a dictionary of occurrences.
+#   Finally, sort a list of the dictionary keys by occurrence and return the list.
+# - Time Complexity: O(N^2)
+# - Space Complexity O(N)
 def sort_array_by_frequency(arr):
     if not arr or len(arr) == 0:
         return []
