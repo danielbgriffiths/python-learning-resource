@@ -42,6 +42,8 @@ See [docs.python.org](https://docs.python.org/3/tutorial/datastructures.html) fo
     1. For description see [leetcode](https://leetcode.com/problems/concatenation-of-array/description/)
 -   [Number of Good Pairs](./algorithms/concatenation_of_arrays.py)
     1. For description see [leetcode](https://leetcode.com/problems/number-of-good-pairs/description/)
+-   [DI String Match](./algorithms/di_string_match.py)
+    1. For description see [leetcode](https://leetcode.com/problems/di-string-match/description/)
 
 ---
 

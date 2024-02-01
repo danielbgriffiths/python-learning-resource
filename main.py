@@ -5,6 +5,7 @@ from algorithms.sort_array_by_frequency import TestSortArrayByFrequency
 from algorithms.merge_sort import TestMergeSort
 from algorithms.concatenation_of_arrays import TestConcatenationOfArrays
 from algorithms.number_of_good_pairs import TestNumberOfGoodPairs
+from algorithms.di_string_match import TestDiStringMatch
 
 if __name__ == '__main__':
     tests = [
@@ -14,7 +15,8 @@ if __name__ == '__main__':
         TestSortArrayByFrequency,
         TestMergeSort,
         TestConcatenationOfArrays,
-        TestNumberOfGoodPairs
+        TestNumberOfGoodPairs,
+        TestDiStringMatch
     ]
 
     test_runner = unittest.TextTestRunner()
