@@ -30,12 +30,10 @@ As well as `numpy` arrays, which are useful for linear algebra
 See [docs.python.org](https://docs.python.org/3/tutorial/datastructures.html) for more documentation on javascript arrays.
 
 -   [Reverse Array](./algorithms/reverse_array.py)
-    1. Impl 1: Create an array in memory and build the array by iterating over the original array and pushing the inverse index.
-    2. Impl 2: Reverse array in place
 -   [Bubble Sort](./algorithms/bubble_sort.py)
-    1. Impl 1: Sort array in place. See: [bubble sort algorithm description](https://www.geeksforgeeks.org/bubble-sort/)
 -   [Sort Array By Frequency](./algorithms/sort_array_by_frequency.py)
-    1. Impl 1: First sort list ascending and then create a dictionary of occurrences. Finally, sort a list of the dictionary keys by occurrence and return the list.
+-   [Merge Sort](./algorithms/merge_sort.py)
+-   [Concatenation of Arrays](./algorithms/concatenation_of_arrays.py)
 
 ---
 

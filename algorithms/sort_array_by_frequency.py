@@ -36,6 +36,7 @@ def sort_array_by_frequency(arr):
 
     return keys
 
+
 class TestSortArrayByFrequency(unittest.TestCase):
     def test_sort_array_by_frequency(self):
         self.assertEqual(
