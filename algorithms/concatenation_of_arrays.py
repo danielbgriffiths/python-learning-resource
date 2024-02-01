@@ -24,19 +24,33 @@ class TestConcatenationOfArrays(unittest.TestCase):
         self.assertEqual(
             concatenation_of_arrays([1, 2, 1]),
             [1, 2, 1, 1, 2, 1],
-            'Should return all possible palindromic substrings'
+            'Should concat arrays while obeying ruleset'
+        )
+
+    def test_complex_case(self):
+        self.assertEqual(
+            concatenation_of_arrays([1, 3, 2, 1]),
+            [1, 3, 2, 1, 1, 3, 2, 1],
+            'Should concat arrays while obeying ruleset'
+        )
+
+    def test_single_index_case(self):
+        self.assertEqual(
+            concatenation_of_arrays([1]),
+            [1, 1],
+            'Should handle single index case while obeying ruleset'
         )
 
     def test_empty_case(self):
         self.assertEqual(
-            concatenation_of_arrays([1, 3, 2, 1]),
-            [1, 3, 2, 1, 1, 3, 2, 1],
-            'Should return all empty array'
+            concatenation_of_arrays([]),
+            [],
+            'Should handle empty case'
         )
 
     def test_null_case(self):
         self.assertEqual(
             concatenation_of_arrays(None),
             [],
-            'Should return all empty array'
+            'Should handle null case'
         )
