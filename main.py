@@ -4,6 +4,7 @@ from algorithms.bubble_sort import TestBubbleSort
 from algorithms.sort_array_by_frequency import TestSortArrayByFrequency
 from algorithms.merge_sort import TestMergeSort
 from algorithms.concatenation_of_arrays import TestConcatenationOfArrays
+from algorithms.number_of_good_pairs import TestNumberOfGoodPairs
 
 if __name__ == '__main__':
     tests = [
@@ -12,7 +13,8 @@ if __name__ == '__main__':
         TestBubbleSort,
         TestSortArrayByFrequency,
         TestMergeSort,
-        TestConcatenationOfArrays
+        TestConcatenationOfArrays,
+        TestNumberOfGoodPairs
     ]
 
     test_runner = unittest.TextTestRunner()
