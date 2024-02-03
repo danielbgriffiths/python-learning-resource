@@ -6,6 +6,7 @@ from algorithms.merge_sort import TestMergeSort
 from algorithms.concatenation_of_arrays import TestConcatenationOfArrays
 from algorithms.number_of_good_pairs import TestNumberOfGoodPairs
 from algorithms.di_string_match import TestDiStringMatch
+from algorithms.surface_area_of_3d_shapes import TestSurfaceAreaOf3dShapes
 
 if __name__ == '__main__':
     tests = [
@@ -16,7 +17,8 @@ if __name__ == '__main__':
         TestMergeSort,
         TestConcatenationOfArrays,
         TestNumberOfGoodPairs,
-        TestDiStringMatch
+        TestDiStringMatch,
+        TestSurfaceAreaOf3dShapes
     ]
 
     test_runner = unittest.TextTestRunner()

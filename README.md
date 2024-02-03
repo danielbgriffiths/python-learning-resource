@@ -44,6 +44,8 @@ See [docs.python.org](https://docs.python.org/3/tutorial/datastructures.html) fo
     1. For description see [leetcode](https://leetcode.com/problems/number-of-good-pairs/description/)
 -   [DI String Match](./algorithms/di_string_match.py)
     1. For description see [leetcode](https://leetcode.com/problems/di-string-match/description/)
+-   [Surface Area of 3D Shapes](./algorithms/surface_area_of_3d_shapes.py)
+    1. For description see [leetcode](https://leetcode.com/problems/surface-area-of-3d-shapes/description/)
 
 ---
 
