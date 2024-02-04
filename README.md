@@ -46,6 +46,18 @@ See [docs.python.org](https://docs.python.org/3/tutorial/datastructures.html) fo
     1. For description see [leetcode](https://leetcode.com/problems/di-string-match/description/)
 -   [Surface Area of 3D Shapes](./algorithms/surface_area_of_3d_shapes.py)
     1. For description see [leetcode](https://leetcode.com/problems/surface-area-of-3d-shapes/description/)
+-   [Convert 1D Array to 2D Array](./algorithms/convert_1d_arr_to_2d_arr.py)
+    1. For description see [leetcode](https://leetcode.com/problems/convert-1d-array-into-2d-array/description/)
+
+           m[r][c] = f(arr)
+           f(arr) = arr[f(r, c, n_cols)]
+           f(r, c, n_cols) = r * n_cols + c
+    
+           eg. for arr=[1, 2, 3, 4], n_rows=2, n_cols=2
+           m[0][0] = arr[(0 * 2 + 0)]
+           m[0][1] = arr[(0 * 2 + 1)]
+           m[1][0] = arr[(1 * 2 + 0)]
+           m[1][1] = arr[(1 * 2 + 1)]
 
 ---
 

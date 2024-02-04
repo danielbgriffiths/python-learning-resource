@@ -7,6 +7,7 @@ from algorithms.concatenation_of_arrays import TestConcatenationOfArrays
 from algorithms.number_of_good_pairs import TestNumberOfGoodPairs
 from algorithms.di_string_match import TestDiStringMatch
 from algorithms.surface_area_of_3d_shapes import TestSurfaceAreaOf3dShapes
+from algorithms.convert_1d_arr_to_2d_arr import TestConvert1dArrayTo2dArray
 
 if __name__ == '__main__':
     tests = [
@@ -18,7 +19,8 @@ if __name__ == '__main__':
         TestConcatenationOfArrays,
         TestNumberOfGoodPairs,
         TestDiStringMatch,
-        TestSurfaceAreaOf3dShapes
+        TestSurfaceAreaOf3dShapes,
+        TestConvert1dArrayTo2dArray
     ]
 
     test_runner = unittest.TextTestRunner()
