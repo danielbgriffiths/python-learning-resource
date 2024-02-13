@@ -29,24 +29,24 @@ As well as `numpy` arrays, which are useful for linear algebra
 
 See [docs.python.org](https://docs.python.org/3/tutorial/datastructures.html) for more documentation on javascript arrays.
 
--   [Reverse Array](./algorithms/reverse_array.py)
+-   [Reverse Array](algorithms/easy/reverse_array.py)
     1. Impl 1: Create an array in memory and build the array by iterating over the original array and pushing the inverse index.
     2. Impl 2: Reverse array in place
--   [Bubble Sort](./algorithms/bubble_sort.py)
+-   [Bubble Sort](algorithms/easy/bubble_sort.py)
     1. Impl 1: Sort array in place. See: [bubble sort algorithm description](https://www.geeksforgeeks.org/bubble-sort/)
--   [Sort Array By Frequency](./algorithms/sort_array_by_frequency.py)
+-   [Sort Array By Frequency](algorithms/easy/sort_array_by_frequency.py)
     1. Impl 1: First sort list ascending and then create a dictionary of occurrences. Finally, sort a list of the dictionary keys by occurrence and return the list.
--   [Merge Sort](./algorithms/merge_sort.py)
+-   [Merge Sort](algorithms/medium/merge_sort.py)
     1. Sort array in place with two pointers. See: [merge sort wiki](https://en.wikipedia.org/wiki/Merge_sort)
--   [Concatenation of Arrays](./algorithms/concatenation_of_arrays.py)
+-   [Concatenation of Arrays](algorithms/easy/concatenation_of_arrays.py)
     1. For description see [leetcode](https://leetcode.com/problems/concatenation-of-array/description/)
--   [Number of Good Pairs](./algorithms/concatenation_of_arrays.py)
+-   [Number of Good Pairs](algorithms/easy/concatenation_of_arrays.py)
     1. For description see [leetcode](https://leetcode.com/problems/number-of-good-pairs/description/)
--   [DI String Match](./algorithms/di_string_match.py)
+-   [DI String Match](algorithms/easy/di_string_match.py)
     1. For description see [leetcode](https://leetcode.com/problems/di-string-match/description/)
--   [Surface Area of 3D Shapes](./algorithms/surface_area_of_3d_shapes.py)
+-   [Surface Area of 3D Shapes](algorithms/easy/surface_area_of_3d_shapes.py)
     1. For description see [leetcode](https://leetcode.com/problems/surface-area-of-3d-shapes/description/)
--   [Convert 1D Array to 2D Array](./algorithms/convert_1d_arr_to_2d_arr.py)
+-   [Convert 1D Array to 2D Array](algorithms/easy/convert_1d_arr_to_2d_arr.py)
     1. For description see [leetcode](https://leetcode.com/problems/convert-1d-array-into-2d-array/description/)
 
            m[r][c] = f(arr)

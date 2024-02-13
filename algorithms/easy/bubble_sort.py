@@ -26,7 +26,6 @@ def bubble_sort(arr, direction='ascending'):
 
     return arr
 
-
 class TestBubbleSort(unittest.TestCase):
     def test_ascending(self):
         self.assertEqual(bubble_sort([1, 4, 3, 6, 8, 24, 12], 'ascending'), [1, 3, 4, 6, 8, 12, 24], "Should sort array ascending")
