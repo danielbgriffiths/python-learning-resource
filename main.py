@@ -1,16 +1,19 @@
 import unittest
-from algorithms.easy.reverse_array import TestReverseArray, TestReverseArrayInPlace
-from algorithms.easy.bubble_sort import TestBubbleSort
-from algorithms.easy.sort_array_by_frequency import TestSortArrayByFrequency
-from algorithms.easy.concatenation_of_arrays import TestConcatenationOfArrays
-from algorithms.easy.number_of_good_pairs import TestNumberOfGoodPairs
-from algorithms.easy.di_string_match import TestDiStringMatch
-from algorithms.easy.surface_area_of_3d_shapes import TestSurfaceAreaOf3dShapes
-from algorithms.medium.longest_substr_without_repeating_chars import TestLongestSubstrWithoutRepeatingChars
-from algorithms.easy.convert_1d_arr_to_2d_arr import TestConvert1dArrayTo2dArray
-from algorithms.medium.longest_palindromic_substring import TestLongestPalindromicSubstring
-from algorithms.easy.longest_common_prefix import TestLongestCommonPrefix
-from algorithms.medium.merge_sort import TestMergeSort
+
+from algorithms.arrays.easy.reverse_array import TestReverseArray, TestReverseArrayInPlace
+from algorithms.arrays.easy.bubble_sort import TestBubbleSort
+from algorithms.arrays.easy.sort_array_by_frequency import TestSortArrayByFrequency
+from algorithms.arrays.easy.concatenation_of_arrays import TestConcatenationOfArrays
+from algorithms.arrays.easy.number_of_good_pairs import TestNumberOfGoodPairs
+from algorithms.arrays.easy.di_string_match import TestDiStringMatch
+from algorithms.arrays.easy.surface_area_of_3d_shapes import TestSurfaceAreaOf3dShapes
+from algorithms.arrays.medium.longest_substr_without_repeating_chars import TestLongestSubstrWithoutRepeatingChars
+from algorithms.arrays.easy.convert_1d_arr_to_2d_arr import TestConvert1dArrayTo2dArray
+from algorithms.arrays.medium.longest_palindromic_substring import TestLongestPalindromicSubstring
+from algorithms.arrays.easy.longest_common_prefix import TestLongestCommonPrefix
+from algorithms.arrays.medium.merge_sort import TestMergeSort
+
+from algorithms.trees.easy.range_sum_bst import TestRangeSumBST
 
 if __name__ == '__main__':
     tests = [
@@ -26,7 +29,8 @@ if __name__ == '__main__':
         TestConvert1dArrayTo2dArray,
         TestLongestSubstrWithoutRepeatingChars,
         TestLongestPalindromicSubstring,
-        TestLongestCommonPrefix
+        TestLongestCommonPrefix,
+        TestRangeSumBST
     ]
 
     test_runner = unittest.TextTestRunner()

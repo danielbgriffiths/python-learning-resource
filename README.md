@@ -29,24 +29,24 @@ As well as `numpy` arrays, which are useful for linear algebra
 
 See [docs.python.org](https://docs.python.org/3/tutorial/datastructures.html) for more documentation on javascript arrays.
 
--   [Reverse Array](algorithms/easy/reverse_array.py)
+-   [Reverse Array](algorithms/arrays/easy/reverse_array.py)
     1. Impl 1: Create an array in memory and build the array by iterating over the original array and pushing the inverse index.
     2. Impl 2: Reverse array in place
--   [Bubble Sort](algorithms/easy/bubble_sort.py)
+-   [Bubble Sort](algorithms/arrays/easy/bubble_sort.py)
     1. Impl 1: Sort array in place. See: [bubble sort algorithm description](https://www.geeksforgeeks.org/bubble-sort/)
--   [Sort Array By Frequency](algorithms/easy/sort_array_by_frequency.py)
+-   [Sort Array By Frequency](algorithms/arrays/easy/sort_array_by_frequency.py)
     1. Impl 1: First sort list ascending and then create a dictionary of occurrences. Finally, sort a list of the dictionary keys by occurrence and return the list.
--   [Merge Sort](algorithms/medium/merge_sort.py)
+-   [Merge Sort](algorithms/arrays/medium/merge_sort.py)
     1. Sort array in place with two pointers. See: [merge sort wiki](https://en.wikipedia.org/wiki/Merge_sort)
--   [Concatenation of Arrays](algorithms/easy/concatenation_of_arrays.py)
+-   [Concatenation of Arrays](algorithms/arrays/easy/concatenation_of_arrays.py)
     1. For description see [leetcode](https://leetcode.com/problems/concatenation-of-array/description/)
--   [Number of Good Pairs](algorithms/easy/concatenation_of_arrays.py)
+-   [Number of Good Pairs](algorithms/arrays/easy/concatenation_of_arrays.py)
     1. For description see [leetcode](https://leetcode.com/problems/number-of-good-pairs/description/)
--   [DI String Match](algorithms/easy/di_string_match.py)
+-   [DI String Match](algorithms/arrays/easy/di_string_match.py)
     1. For description see [leetcode](https://leetcode.com/problems/di-string-match/description/)
--   [Surface Area of 3D Shapes](algorithms/easy/surface_area_of_3d_shapes.py)
+-   [Surface Area of 3D Shapes](algorithms/arrays/easy/surface_area_of_3d_shapes.py)
     1. For description see [leetcode](https://leetcode.com/problems/surface-area-of-3d-shapes/description/)
--   [Convert 1D Array to 2D Array](algorithms/easy/convert_1d_arr_to_2d_arr.py)
+-   [Convert 1D Array to 2D Array](algorithms/arrays/easy/convert_1d_arr_to_2d_arr.py)
     1. For description see [leetcode](https://leetcode.com/problems/convert-1d-array-into-2d-array/description/)
 
            m[r][c] = f(arr)
@@ -58,13 +58,13 @@ See [docs.python.org](https://docs.python.org/3/tutorial/datastructures.html) fo
            m[0][1] = arr[(0 * 2 + 1)]
            m[1][0] = arr[(1 * 2 + 0)]
            m[1][1] = arr[(1 * 2 + 1)]
--   [Longest Common Prefix](algorithms/easy/longest_common_prefix.py)
+-   [Longest Common Prefix](algorithms/arrays/easy/longest_common_prefix.py)
     1. For description see [leetcode](https://leetcode.com/problems/longest-common-prefix/description/)
 
            Step through each string for the length of the minimum string
            Test for a mismatch at each step
            If a mismatch exists, return the current longest prefix
--   [Longest Palindromic Substring](algorithms/medium/longest_palindromic_substring.py)
+-   [Longest Palindromic Substring](algorithms/arrays/medium/longest_palindromic_substring.py)
     1. For description see [leetcode](https://leetcode.com/problems/longest-palindromic-substring/description/)
 
             ['d', 'a', 'd', 'd', 'y']
@@ -75,7 +75,7 @@ See [docs.python.org](https://docs.python.org/3/tutorial/datastructures.html) fo
     
                      ['d', 'a', 'd', 'd', 'y']
            ['y', 'd', 'd', 'a', 'd']
--   [Longest Substring Without Repeating Characters](algorithms/medium/longest_substr_without_repeating_chars.py)
+-   [Longest Substring Without Repeating Characters](algorithms/arrays/medium/longest_substr_without_repeating_chars.py)
     1. For description see [leetcode](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)
 
            for i in string 
@@ -84,22 +84,10 @@ See [docs.python.org](https://docs.python.org/3/tutorial/datastructures.html) fo
 
 ---
 
-## Function Performance Evaluation
+#### 2. Trees
 
-### 1. What is Space Complexity
+-   [Range Sum of Binary Search Tree](algorithms/trees/easy/range_sum_of_bst.py)
+    1. For description see [leetcode](https://leetcode.com/problems/range-sum-of-bst/description/)
 
-TODO
-
-### 2. What is Time Complexity
-
-TODO
-
----
-
-## Function Syntax Evaluation
-
-### 1. Python Usage and Practices
-
-TODO
-
----
+           Traverse the tree in a depth first search manner recursively
+           Pass an accumulator to keep track of the sum of the nodes that are within the range
