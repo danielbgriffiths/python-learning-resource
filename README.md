@@ -91,3 +91,7 @@ See [docs.python.org](https://docs.python.org/3/tutorial/datastructures.html) fo
 
            Traverse the tree in a depth first search manner recursively
            Pass an accumulator to keep track of the sum of the nodes that are within the range
+-   [Find a Corresponding Node of a Binary Tree in a Clone of That Tree](algorithms/trees/easy/corresponding_node.py)
+    1. For description see [leetcode](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/description/)
+
+           Traverse the tree in a depth first search manner recursively

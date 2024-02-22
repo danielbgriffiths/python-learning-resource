@@ -14,6 +14,7 @@ from algorithms.arrays.easy.longest_common_prefix import TestLongestCommonPrefix
 from algorithms.arrays.medium.merge_sort import TestMergeSort
 
 from algorithms.trees.easy.range_sum_bst import TestRangeSumBST
+from algorithms.trees.easy.corresponding_node import TestCorrespondingNode
 
 if __name__ == '__main__':
     tests = [
@@ -30,7 +31,8 @@ if __name__ == '__main__':
         TestLongestSubstrWithoutRepeatingChars,
         TestLongestPalindromicSubstring,
         TestLongestCommonPrefix,
-        TestRangeSumBST
+        TestRangeSumBST,
+        TestCorrespondingNode
     ]
 
     test_runner = unittest.TextTestRunner()
