@@ -9,7 +9,7 @@ from algorithms.easy.surface_area_of_3d_shapes import TestSurfaceAreaOf3dShapes
 from algorithms.medium.longest_substr_without_repeating_chars import TestLongestSubstrWithoutRepeatingChars
 from algorithms.easy.convert_1d_arr_to_2d_arr import TestConvert1dArrayTo2dArray
 from algorithms.medium.longest_palindromic_substring import TestLongestPalindromicSubstring
-from algorithms.medium.longest_common_prefix import TestLongestCommonPrefix
+from algorithms.easy.longest_common_prefix import TestLongestCommonPrefix
 from algorithms.medium.merge_sort import TestMergeSort
 
 if __name__ == '__main__':

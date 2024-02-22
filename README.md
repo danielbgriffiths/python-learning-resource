@@ -58,6 +58,29 @@ See [docs.python.org](https://docs.python.org/3/tutorial/datastructures.html) fo
            m[0][1] = arr[(0 * 2 + 1)]
            m[1][0] = arr[(1 * 2 + 0)]
            m[1][1] = arr[(1 * 2 + 1)]
+-   [Longest Common Prefix](algorithms/easy/longest_common_prefix.py)
+    1. For description see [leetcode](https://leetcode.com/problems/longest-common-prefix/description/)
+
+           Step through each string for the length of the minimum string
+           Test for a mismatch at each step
+           If a mismatch exists, return the current longest prefix
+-   [Longest Palindromic Substring](algorithms/medium/longest_palindromic_substring.py)
+    1. For description see [leetcode](https://leetcode.com/problems/longest-palindromic-substring/description/)
+
+            ['d', 'a', 'd', 'd', 'y']
+            ['y', 'd', 'd', 'a', 'd']
+    
+                 ['d', 'a', 'd', 'd', 'y']
+            ['y', 'd', 'd', 'a', 'd']
+    
+                     ['d', 'a', 'd', 'd', 'y']
+           ['y', 'd', 'd', 'a', 'd']
+-   [Longest Substring Without Repeating Characters](algorithms/medium/longest_substr_without_repeating_chars.py)
+    1. For description see [leetcode](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)
+
+           for i in string 
+               for j in (i, string) until string[j] is repeating
+                   check if iterations longest_substring is longest_substring
 
 ---
 

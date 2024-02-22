@@ -3,7 +3,7 @@ import unittest
 
 # Given a string, find the length of the longest substring without repeating characters.
 #
-# Time Complexity: O(N^2)
+# Time Complexity: O(N log N)
 # Space Complexity: O(N)
 # Mental Model:
 #       for i in string
