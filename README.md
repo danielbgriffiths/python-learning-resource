@@ -100,3 +100,8 @@ See [docs.python.org](https://docs.python.org/3/tutorial/datastructures.html) fo
 
            1. Traverse the tree in a depth first search manner recursively
            2. Traverse the tree in a breadth first search manner using a queue
+-   [Merge Binary Search Trees](algorithms/trees/easy/merge_binary_trees.py)
+    1. For description see [leetcode](https://leetcode.com/problems/merge-two-binary-trees/description/)
+
+           Depth-first recurse through the subject node and target node in-sync.
+           At each level we merge the `value`, or simulate a reflective node if one of the nodes is None.

@@ -16,6 +16,7 @@ from algorithms.arrays.medium.merge_sort import TestMergeSort
 from algorithms.trees.easy.range_sum_bst import TestRangeSumBST
 from algorithms.trees.easy.corresponding_node import TestCorrespondingNode
 from algorithms.trees.easy.binary_tree_search import TestBinaryTreeSearchDFS, TestBinaryTreeSearchBFS
+from algorithms.trees.easy.merge_binary_trees import TestMergeBinaryTrees
 
 if __name__ == '__main__':
     tests = [
@@ -35,7 +36,8 @@ if __name__ == '__main__':
         TestRangeSumBST,
         TestCorrespondingNode,
         TestBinaryTreeSearchDFS,
-        TestBinaryTreeSearchBFS
+        TestBinaryTreeSearchBFS,
+        TestMergeBinaryTrees
     ]
 
     test_runner = unittest.TextTestRunner()
