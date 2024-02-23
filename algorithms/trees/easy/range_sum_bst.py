@@ -11,7 +11,7 @@ class Node:
 # Given the root node of a binary search tree and two integers low and high,
 # return the sum of values of all nodes with a value in the inclusive range [low, high].
 # Time complexity: O(n)
-# Space complexity: O(n)
+# Space complexity: O(1)
 # Mental Model:
 #       Traverse the tree in a depth first search manner recursively
 #       Pass an accumulator to keep track of the sum of the nodes that are within the range

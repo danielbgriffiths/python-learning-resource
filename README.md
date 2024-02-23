@@ -95,3 +95,8 @@ See [docs.python.org](https://docs.python.org/3/tutorial/datastructures.html) fo
     1. For description see [leetcode](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/description/)
 
            Traverse the tree in a depth first search manner recursively
+-   [Search In A Binary Tree](algorithms/trees/easy/binary_tree_search.py)
+    1. For description see [leetcode](https://leetcode.com/problems/search-in-a-binary-search-tree/description/)
+
+           1. Traverse the tree in a depth first search manner recursively
+           2. Traverse the tree in a breadth first search manner using a queue
